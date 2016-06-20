@@ -17,7 +17,8 @@ function drawpoints(data){
 	  	// And then add a marker to the point
 	    var marker = new google.maps.Marker({
 	    	position: point,
-	      	map: map
+	      	map: map,
+	      	icon: icon
 	    });
     } 
 }
